@@ -3,8 +3,11 @@ package com.ikozm.petclinic.services.map;
 import com.ikozm.petclinic.model.Owner;
 import com.ikozm.petclinic.services.OwnerService;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

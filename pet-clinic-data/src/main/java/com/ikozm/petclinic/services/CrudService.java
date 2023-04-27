@@ -1,7 +1,5 @@
 package com.ikozm.petclinic.services;
 
-import com.ikozm.petclinic.model.Owner;
-
 import java.util.Set;
 
 public interface CrudService<T, ID> {

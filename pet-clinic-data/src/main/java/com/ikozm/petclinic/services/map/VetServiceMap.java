@@ -4,8 +4,11 @@ import com.ikozm.petclinic.model.Vet;
 import com.ikozm.petclinic.services.CrudService;
 import com.ikozm.petclinic.services.VetService;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
