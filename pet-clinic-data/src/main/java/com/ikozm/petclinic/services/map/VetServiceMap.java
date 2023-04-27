@@ -2,10 +2,11 @@ package com.ikozm.petclinic.services.map;
 
 import com.ikozm.petclinic.model.Vet;
 import com.ikozm.petclinic.services.CrudService;
+import com.ikozm.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Vet findById(Long id) {
